@@ -1,1 +1,30 @@
-# Add things to ignore
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.venv/
+
+# Environment variables
+.env
+.flaskenv
+
+# SQLite
+*.sqlite3
+
+# Instance folder
+instance/
+
+# Migrations pycache (keep migration files, ignore compiled)
+migrations/__pycache__/
+migrations/versions/__pycache__/
+
+# Node
+node_modules/
+dist/
+
+# OS
+.DS_Store
